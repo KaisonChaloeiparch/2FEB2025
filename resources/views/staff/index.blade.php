@@ -65,3 +65,5 @@
 
     <div class="mt-4">{{ $staffs->appends(['search' => request('search')])->links() }}</div>
 </x-bootstrap>
+
+
